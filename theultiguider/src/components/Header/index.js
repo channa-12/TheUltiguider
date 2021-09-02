@@ -54,7 +54,7 @@ const Nav = styled.nav`
       background: transparent;
       transition: width 0.5s ease;
     }
-    
+
     &:not(:last-child):hover::after {
       width: 100%;
       background: var(--primarycolor);

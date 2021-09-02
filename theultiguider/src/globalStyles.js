@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
    --nav2:#3f3d56;
    --primarycolor: #FF5757;
    --secondarycolor: #12232E;
+   --navcolor: #eff7f9;
 }
 
 

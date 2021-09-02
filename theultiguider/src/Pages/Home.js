@@ -3,7 +3,7 @@ import styled from "styled-components";
 import HeroSection from "../Sections/HeroSection/index";
 import DestinationSection from "../Sections/DestinationSection/index";
 import TeamSection from "../Sections/TeamSection/index";
-import TravelPreparation from "./TravelPreparation";
+import TravelPreparation from "../Sections/TravelPreparationSection/index";
 
 const Container = styled.div`
   display: flex;

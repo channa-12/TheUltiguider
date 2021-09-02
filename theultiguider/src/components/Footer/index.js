@@ -16,7 +16,7 @@ const FOOTER = styled.footer`
   width: 100%;
   background-color: var(--white);
   justify-content: space-between;
-  @media only Screen and (max-width: 48em) {
+  @media only Screen and (max-width: 52em) {
     flex-direction: column;
     align-items: center;
     div {
