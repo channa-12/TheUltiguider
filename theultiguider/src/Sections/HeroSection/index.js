@@ -1,5 +1,5 @@
 import React from "react";
-import CambodiaMap from "../../assets/cambodia.svg";
+//import CambodiaMap from "../../assets/cambodia.svg";
 import CambodiaMap2 from "../../assets/Cambodia_map.png";
 import styled from "styled-components";
 import SearchBar from "../SearchBar/index";
@@ -46,6 +46,7 @@ const RightBlock = styled.div`
   color: var(--black);
   position: relative;
   z-index: 15;
+  
   @media only Screen and (max-width: 50em) {
     width: 80%;
     text-align: center;
@@ -83,6 +84,7 @@ const Title = styled.h1`
   text-align: center;
   padding: 0.5rem 0;
 `;
+
 const SubText = styled.h5`
   font-size: calc(0.5rem + 0.5vw);
   color: var(--nav2);

@@ -6,7 +6,7 @@ import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
 const TravelSection = styled.div`
   width: 100vw;
-  height: 45vw;
+  height: 40vw;
   background-color: var(--white);
   display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@ const MainContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 85vw;
+  width: 90vw;
   @media only Screen and (max-width: 52em) {
     flex-direction: column;
     justify-content: center;
@@ -63,12 +63,13 @@ const PreparationImg = styled.img`
   max-width: 100%;
   width: calc(16% + 30vw);
   height: auto;
-
+  width="400"
+  height="400"
 `;
 
 const Title = styled.h1`
   padding: 1.5rem 0;
-    line-height: 1.5;
+  line-height: 1.5;
 `;
 const SubText = styled.p`
   line-height: 1.5;

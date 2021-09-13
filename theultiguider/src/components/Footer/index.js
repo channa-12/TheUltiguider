@@ -152,7 +152,7 @@ const index = () => {
         </ICON>
       </ROWICON>
       <ROWICON>
-        &copy;Ultiguider, Inc. {new Date().getFullYear()}. We love to travel!
+        &copy;Ultiguider, Inc {new Date().getFullYear()}. We love to travel!
       </ROWICON>
     </FOOTER>
   );
