@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from "styled-components";
 import HeroSection from "../SectionTravelPreparation/HeroSection/index";
-import Info from "../SectionTravelPreparation/MountainAndBeach/index";
+import Info1 from "../SectionTravelPreparation/MountainAndBeach/index";
+import Info2 from "../SectionTravelPreparation/BeachSection/index";
 
 const Container = styled.div`
   display: flex;
@@ -14,7 +15,8 @@ const TravelPreparation = () => {
     return (
         <Container>
             <HeroSection/>
-            <Info/>
+            <Info1/>
+            <Info2/>
         </Container>
     )
 }

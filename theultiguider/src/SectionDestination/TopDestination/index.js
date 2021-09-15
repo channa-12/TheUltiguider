@@ -78,29 +78,41 @@ const index = () => {
       <MainContainer>
         <Title>
           <Link to="/destination">
-            Explore Top Destination
-            <ArrowForwardIosIcon
+            Top Destination
+            {/* <ArrowForwardIosIcon
               style={{ color: "#000000", marginLeft: "10" }}
-            />
+            /> */}
           </Link>
         </Title>
         <SubText>Top destination you would choose for your vacation.</SubText>
 
         <CardWrap>
-          <Link to="/destination/sub-destination" style={{ color: "#000000"}}>
+          <Link to="/destination/sub-destination" style={{ color: "#000000" }}>
             <Card image="angkor-wat-2" text="Angkor wat - Siem Reap"></Card>
           </Link>
           <Card
-            image="prasat-preah-vihear"
-            text="Prasat Preah Vihear - Preah Vihea"
+            image="sambor-prei-kuk-kampong-thom"
+            text="Sambor Prei Kuk - Kampong Thom"
+          ></Card>
+          <Card image="lonely-beach" text="Lonely Beach - Sihanoukville"></Card>
+          <Card
+            image="banteay-chhmar-banteay-meanchey"
+            text="Banteay Chhmar - Banteay Meanchey"
+          ></Card>
+
+          <Card image="mekong-river-kratie" text="Mekong River - Kratie"></Card>
+
+          <Card
+            image="phnom-penh-royal-palace"
+            text="Royal Palace - Phnom Penh"
           ></Card>
           <Card
-            image="ratanakiri-scenery"
-            text="Mountain View - Ratanakiri"
+            image="rice-field-kampot"
+            text="Rice Field - Kampot"
           ></Card>
           <Card
-            image="sihanoukville-otres-beach"
-            text="Otres Beach - Sihanoukville"
+            image="mondulkiri"
+            text="Mondulkiri Mountain - Mondulkiri"
           ></Card>
         </CardWrap>
       </MainContainer>

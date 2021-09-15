@@ -17,6 +17,7 @@ function App() {
       <Suspense fallback={null}>
         <GlobalStyle />
         <Header />
+
         <Route exact path="/" component={Home} />
         <Route exact path="/destination" component={Destination} />
         <Route exact path="/aboutUs" component={AboutUs} />
@@ -26,6 +27,7 @@ function App() {
           component={SubDestination}
         />
         <Route exact path="/travel-preparation" component={TravelPreparation} />
+
         <Footer />
         <ScrollToTop />
       </Suspense>

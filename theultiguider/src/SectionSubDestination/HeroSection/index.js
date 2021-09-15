@@ -1,12 +1,11 @@
-import React from "react";
 import styled from "styled-components";
 import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
 import { Link } from "react-router-dom";
-import MountainOrBeachImg from "../../assets/mountainOrBeach.jpg";
+import MountainOrBeachImg from "../../assets/Angkor-wat-slide1.png";
 
 const HeroSection = styled.section`
   width: 100vw;
-  height: 53vw;
+  height: 45vw;
   background-color: var(--white);
   display: flex;
   flex-direction: row;
@@ -40,20 +39,6 @@ const MainContainer = styled.div`
   }
 `;
 
-// const NameBlock = styled.div`
-//   display: flex;
-//   flex-direction: row;
-//   width: 60%;
-//   line-height: 2;
-//   color: var(--black);
-//   position: relative;
-//   @media only Screen and (max-width: 52em) {
-//     text-align: center;
-//     align-items: center;
-//     justify-content: center;
-//   }
-// `;
-
 const Titles = styled.h1`
   margin-left: 10px;
   color: var(--black);
@@ -85,12 +70,14 @@ const index = () => {
     <HeroSection>
       <MainContainer>
         <LinkPrepare>
-          <Link exact path="/">
+          <Link to="/">
             {" "}
-            <KeyboardBackspaceIcon style={{ color: "#000", marginTop:'6px' }} />{" "}
+            <KeyboardBackspaceIcon
+              style={{ color: "#000", marginTop: "6px" }}
+            />{" "}
           </Link>
           <Link to="/">
-            <Titles>Travel Preparation</Titles>
+            <Titles>Angkor Wat - Siem Reap</Titles>
           </Link>
         </LinkPrepare>
 

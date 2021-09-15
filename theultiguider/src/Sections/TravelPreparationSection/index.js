@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import TravelImagePrepare from "../../assets/travelEquipment.jpg";
@@ -62,9 +62,7 @@ const RightBlock = styled.div`
 const PreparationImg = styled.img`
   max-width: 100%;
   width: calc(16% + 30vw);
-  height: auto;
-  width="400"
-  height="400"
+  border-radius: 20px;
 `;
 
 const Title = styled.h1`
@@ -87,8 +85,6 @@ function TravelPrepare() {
         <PreparationImg
           src={TravelImagePrepare}
           alt="Travel Preparation"
-          width="400"
-          height="400"
         ></PreparationImg>
         <RightBlock>
           <Title>Travel Preparation</Title>

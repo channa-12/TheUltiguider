@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import LocationOnIcon from "@material-ui/icons/LocationOn";
 
 const CARD = styled.div`
   height: calc(4rem + 12vw);

@@ -1,13 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import { Link } from "react-router-dom";
 import Card from "../../components/CardCategories/index";
 
 const DestinationSection = styled.div`
   width: 100vw;
   height: 40;
-  background-color: var(--navcolor);
+  background-color: white;
   display: flex;
   padding: 40px 0;
   flex-direction: row;
@@ -77,30 +76,24 @@ const index = () => {
     <DestinationSection>
       <MainContainer>
         <Title>
-          <Link to="/destination">
-            Explore Top Destination
-            <ArrowForwardIosIcon
-              style={{ color: "#000000", marginLeft: "10" }}
-            />
-          </Link>
+          <Link to="/destination">Related Places</Link>
         </Title>
-        <SubText>Top destination you would choose for your vacation.</SubText>
+        <SubText>Some places you might like.</SubText>
 
         <CardWrap>
-          <Link to="/destination/sub-destination" style={{ color: "#000000"}}>
-            <Card image="angkor-wat-2" text="Angkor wat - Siem Reap"></Card>
-          </Link>
           <Card
-            image="prasat-preah-vihear"
-            text="Prasat Preah Vihear - Preah Vihea"
+            image="Banteay-Chhmar-Temple"
+            text="Banteay Chhmar - Banteay Meanchey"
           ></Card>
+
           <Card
-            image="ratanakiri-scenery"
-            text="Mountain View - Ratanakiri"
+            image="Bayon-Temple-siem-reap"
+            text="Bayon Temple - Siem Reap "
           ></Card>
+          <Card image="Ta-Som-siem-reap" text="Ta Som - Siem Reap"></Card>
           <Card
-            image="sihanoukville-otres-beach"
-            text="Otres Beach - Sihanoukville"
+            image="Koh-Ker-preah-vihea"
+            text="Koh Ker Temple - Preah Vihear"
           ></Card>
         </CardWrap>
       </MainContainer>

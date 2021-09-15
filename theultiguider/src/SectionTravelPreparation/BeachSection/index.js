@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Image1 from "../../assets/hiking.jpg";
+import Image1 from "../../assets/beachImage.jpg";
 
 const MountainSection = styled.section`
   width: 100vw;
@@ -103,24 +103,24 @@ const index = () => {
   return (
     <MountainSection>
       <MainContainer>
-        <Title>Mountain</Title>
-        <SubText>Preparing for the mountain explorer</SubText>
+        <Title>Beach</Title>
+        <SubText>Preparing for the beach</SubText>
         <Wrap>
           <BoxLeft>
             <p>
-              The idea of climbing a mountain can be exciting yet intimidating
-              at the same time. You know that there’s a rewarding view and
-              scenery when you get to the top, but you’re worried about the
-              whole process and the climb itself. How do you prepare?{" "}
+              If you’re worried about what to bring to the beach, we’ve got you
+              covered with a list of beach essentials. From basics to extras,
+              and from toiletries to luxury relaxation, you won’t forget a thing
+              if you stick to these beach necessities.{" "}
             </p>
             <OrderList>
-              <li>Jog or do cardio before you climb.</li>
-              <li>Read about the mountain you're going to climb.</li>
-              <li>Waterproof your things whether rain or shine.</li>
-              <li>Bring around two litres of water.</li>
-              <li>Bring snacks high in carbs and protein.</li>
-              <li>Stretch before the climb.</li>
-              <li>Bring first aid kit.</li>
+              <li>Sunscreen </li>
+              <li>Sandals </li>
+              <li>Hat </li>
+              <li>Pajamas</li>
+              <li>Toothbrush </li>
+              <li>Shampoo, Soap </li>
+              <li>Sunglasses </li>
             </OrderList>
           </BoxLeft>
           <BoxRight>
