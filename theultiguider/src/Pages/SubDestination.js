@@ -17,7 +17,7 @@ const SubDestination = () => {
     <Container>
       <HeroSection />
       <History />
-      <ThingsTD />
+      {/* <ThingsTD /> */}
       <RealatedPlace />
     </Container>
   );

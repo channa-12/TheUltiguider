@@ -1,5 +1,5 @@
 import React from "react";
-import CambodiaMap2 from "../../assets/Cambodia_map.png";
+import CambodiaMap2 from "../../assets/cambodia.svg";
 import styled from "styled-components";
 import SearchBar from "../../Sections/SearchBar/index";
 
@@ -61,33 +61,22 @@ const RightBlock = styled.div`
 
 const CambodiaMapSvg = styled.img`
   max-width: 100%;
-  width: calc(16% + 20vw);
+  width: calc(20% + 20vw);
   height: auto;
   z-index: 7;
 
   @media only Screen and (max-width: 48em) {
-    align-self: flex-start;
-    position: absolute;
+    //align-self: flex-start;
+    //position: absolute;
     bottom: 0;
     width: calc(30% + 20vw);
-    opacity: 0.5;
+    //opacity: 0.5;
   }
   @media only Screen and (max-width: 40em) {
-    display: none;
+    //display: none;
   }
 `;
 
-// const Title = styled.h1`
-//   font-size: calc(2rem + 1vw);
-//   line-height: 1.2;
-//   text-align: center;
-//   padding: 0.5rem 0;
-// `;
-
-// const SubText = styled.h5`
-//   font-size: calc(0.5rem + 0.5vw);
-//   color: var(--nav2);
-// `;
 
 const index = () => {
   return (

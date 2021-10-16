@@ -4,14 +4,16 @@ import Image1 from "../../assets/beachImage.jpg";
 
 const MountainSection = styled.section`
   width: 100vw;
-  height: 45vw;
+  height: auto;
   background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
   @media only Screen and (max-width: 48em) {
     padding: 2em;
+    height: auto;
   }
 `;
 
@@ -30,64 +32,65 @@ const MainContainer = styled.div`
 `;
 
 const Wrap = styled.div`
-  display: grid;
-  grid-template-columns: 70% 30%;
-  grid-gap: 10px;
-  padding: 10px;
-  background-color: #d9e4ec;
+  display: flex;
+  flex-direction: row;
+  //justify-content: flex-start;
+  width: 85vw;
+  //background-color: #d9e4ec;
+  padding: 20px;
   @media only Screen and (max-width: 52em) {
-    
     height: auto;
+    flex-direction: column;
   }
 `;
 
 const BoxLeft = styled.div`
-  // width: 60%;
-  // height: 350px;
-  // margin: 20px;
+  width: 70%;
+  padding-right: 30px;
 
-  // @media only Screen and (max-width: 52em) {
-  //   width: 90%;
-  //   height: auto;
-  // }
+  @media only Screen and (max-width: 52em) {
+    width: 90%;
+    height: auto;
+    padding: 0;
+  }
 `;
 
 const BoxRight = styled.div`
-  // width: 30%;
-  // margin: 20px;
-  // display: flex;
-  // justify-content: flex-end;
-  // align-items: center;
+  width: 30%;
+  padding: 10px;
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-start;
+  //align-items: center;
 
-  // @media only Screen and (max-width: 60em) {
-  //   background-color: yellow;
-  //   width: 30%;
-  //   margin: 0;
-  //   align-items: center;
-  //   justify-content: center;
-  // }
-  // @media only Screen and (max-width: 52em) {
-  //   width: 50%;
-  //   margin: 0;
-  //   align-items: center;
-  //   justify-content: center;
-  // }
+  @media only Screen and (max-width: 60em) {
+    width: 30%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  @media only Screen and (max-width: 52em) {
+    width: 50%;
+    height: auto;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
-const IMAGE = styled.img`
-  max-width: 100%;
-  // width: calc(16% + 30vw);
-  // border-radius: 20px;
-  // width: 300px;
-  // height: 300px;
+const MAP = styled.div`
+  width: 100%;
+  border: 1px solid black;
 `;
+
+
 const index = () => {
   return (
     <MountainSection>
       <MainContainer>
         <Wrap>
           <BoxLeft>
-            <p>
+            <p style={{textAlign:"justify"}}>
               If you only know a little bit about Cambodia, chances are this
               massive temple is the image you have in your mind. Not simply
               known as one of the best temples in Cambodia – but rather the best
@@ -115,12 +118,19 @@ const index = () => {
               child), it was one of my most memorable and authentic travel
               experiences. Make friends with the locals, they are an incredibly
               hospitable people so who knows where it might get you! <br />
-              <br /> <span style={{}}> Opening hours: </span> 5am – 5:30pm
-              (upper level open at 7:30am) <br/><br/>
+              <br />{" "}
+              <span style={{ fontWeight: "bold" }}> Opening hours: </span> 5am –
+              5:30pm (upper level open at 7:30am) <br />
+              <br /> <span style={{ fontWeight: "bold" }}> Price: </span> (price
+              is for the Angkor Archaeological Park) <br />
+              <br /> US$37 - one day <br />
+              <br /> US$62 - three days <br />
+              <br /> US$72 - one week
             </p>
           </BoxLeft>
           <BoxRight>
-            <IMAGE src={Image1} alt="firstKit" />
+            {/* <IMAGE src={Image1} alt="firstKit" /> */}
+            <MAP></MAP>
           </BoxRight>
         </Wrap>
       </MainContainer>

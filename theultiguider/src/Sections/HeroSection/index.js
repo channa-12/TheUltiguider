@@ -23,6 +23,7 @@ const HeroSection = styled.section`
 
 const MainContainer = styled.div`
   display: flex;
+
   justify-content: center;
   align-items: center;
   width: 85vw;
@@ -39,14 +40,14 @@ const RightBlock = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 70px;
-  align-items: start-first;
+  // align-items: start-first;
   width: 70%;
   align-items: center;
   line-height: 3;
   color: var(--black);
   position: relative;
   z-index: 15;
-  
+
   @media only Screen and (max-width: 50em) {
     width: 80%;
     text-align: center;

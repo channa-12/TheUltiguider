@@ -3,6 +3,7 @@ import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
 import { Link } from "react-router-dom";
 import MountainOrBeachImg from "../../assets/Angkor-wat-slide1.png";
 
+
 const HeroSection = styled.section`
   width: 100vw;
   height: 45vw;
@@ -82,8 +83,10 @@ const index = () => {
         </LinkPrepare>
 
         <Image src={MountainOrBeachImg} alt="beach" />
+       
       </MainContainer>
     </HeroSection>
+    
   );
 };
 
